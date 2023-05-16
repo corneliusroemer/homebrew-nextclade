@@ -13,7 +13,7 @@ cask "nextclade" do
   end
 
   name "Nextclade"
-  desc "Viral genome alignment, mutation calling, clade assignment, QC and phylogenetic placement"
+  desc "Viral genome alignment, mutation calling, clade calling, QC and phylo placement"
   homepage "https://github.com/nextstrain/nextclade"
 
   # We don't have an 'app' stanza for this Cask because it seems to be a command-line tool
