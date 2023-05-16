@@ -36,7 +36,8 @@ class Nextclade < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "install", *std_cargo_args
+    system "cargo", "build", "-p=nextclade", *std_cargo_args
+    bin.install "target/release/nextclade"
   end
 
   test do
